@@ -1,5 +1,7 @@
 .featuredProducts {
-  margin: 100px 200px;
+  margin: 50px 100px;
+  color:#78909C;
+
 
   .top {
     display: flex;
@@ -10,11 +12,12 @@
     h1 {
       flex: 2;
       text-transform: capitalize;
+      width: 360px;
     }
 
     p{
       flex:3;
-      color:gray
+      color:#78909C;
     }
   }
 

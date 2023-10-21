@@ -13,17 +13,26 @@ const Navbar = () => {
   const [open,setOpen] = useState(false)
   const products = useSelector((state) => state.cart.products);
 
+  const addGoogleFontsLink = () => {
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href =
+      "https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Hind:wght@300;400;500&family=Lato:ital,wght@1,300&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&family=Roboto:wght@100&display=swap";
+    document.head.appendChild(link);
+  };
+  addGoogleFontsLink();
+
   return (
     <div className="navbar">
       <div className="wrapper">
         <div className="left">
           <div className="item">
-            <img src="/img/en.png" alt="" />
-            <KeyboardArrowDownIcon />
+            <img src="/img/logos.png" alt="" />
+           
           </div>
           <div className="item">
-            <span>USD</span>
-            <KeyboardArrowDownIcon />
+            <span></span>
+            
           </div>
           <div className="item">
             <Link className ="link" to="/products/1">Women</Link>
@@ -32,11 +41,11 @@ const Navbar = () => {
             <Link className ="link" to="/products/2">Men</Link>
           </div>
           <div className="item">
-            <Link className ="link" to="/products/3">Children</Link>
+            <Link className ="link" to="/products/3">Acessories</Link>
           </div>
         </div>
         <div className="center">
-          <Link className ="link" to="/">LAMASTORE</Link>
+          <Link className ="link" to="/">TrendZy</Link>
         </div>
         <div className="right">
           <div className="item">

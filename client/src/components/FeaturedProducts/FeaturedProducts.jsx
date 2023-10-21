@@ -13,11 +13,8 @@ const FeaturedProducts = ({ type }) => {
       <div className="top">
         <h1>{type} products</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-          suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-          lacus vel facilisis labore et dolore magna aliqua. Quis ipsum
-          suspendisse ultrices gravida. Risus commodo viverra maecenas.
+       
+"TrendZy - Where Fashion Meets Expression. Our clothing line is a canvas of creativity, offering a diverse range of styles that cater to your unique personality. With quality fabrics, impeccable craftsmanship, and a commitment to staying on top of the latest trends, TrendZy is your go-to destination for dressing in style and making a statement. Discover the art of self-expression through our fashion, and let your wardrobe reflect your individuality with TrendZy."
         </p>
       </div>
       <div className="bottom">

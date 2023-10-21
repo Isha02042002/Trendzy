@@ -1,5 +1,13 @@
+
 .navbar {
-  height: 80px;
+  height: 70px;
+ color:#78909C;
+ background-color: #CFD8DC;
+ 
+.cursive {
+  font-family: cursive;
+}
+ font-family: cursive;
 
   .wrapper {
     padding: 10px 30px;
@@ -11,6 +19,7 @@
       display: flex;
       align-items: center;
       font-size: 18px;
+      font-family: cursive;
     }
 
     .left {
@@ -21,6 +30,15 @@
     .center {
       font-size: 30px;
       letter-spacing: 2px;
+      
+    
+      font-family: 'Dancing Script', cursive, sans-serif;
+
+      
+    }
+    .item:hover {
+      color:#ECEFF1;
+      /* Add any other styles you want for the hover effect */
     }
     .right {
       display: flex;
@@ -30,7 +48,7 @@
       .icons {
         display: flex;
         gap: 15px;
-        color: #777;
+        color:#78909C;
         cursor: pointer;
 
         .cartIcon {
@@ -41,7 +59,7 @@
             width: 20px;
             height: 20px;
             border-radius: 50%;
-            background-color: #2879fe;
+            color:#78909C;
             color: white;
             position: absolute;
             right: -10px;
@@ -49,6 +67,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            font-family: cursive;
           }
         }
       }

@@ -1,12 +1,12 @@
 .contact{
-  background-color: #2879fe;
-  color: white;
-  padding: 15px;
+  color:#78909C;
+ background-color: #CFD8DC;
+  padding: 20px;
   display: flex;
   justify-content: center;
 
   .wrapper{
-    width: 50%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,14 +20,14 @@
     button{
       padding: 10px;
       color: white;
-      background: #333;
+      background: #4a4a5f;
       border-radius: 0 5px 5px 0;
       border: none;
     }
 
     .icons{
       display: flex;
-      gap: 10px;
+      gap: 15px;
     }
   }
 }

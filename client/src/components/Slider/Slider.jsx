@@ -22,9 +22,9 @@ const Slider = () => {
   return (
     <div className="slider">
       <div className="container" style={{transform:`translateX(-${currentSlide * 100}vw)`}}>
-        <img src="slider3.png" alt="" />
-        <img src={data[1]} alt="" />
-        <img src={data[2]} alt="" />
+      <img src="/img/finall.png" alt="" />
+        <img src="/img/final2.png" alt="" />
+        <img src="/img/finall3.png" alt="" />
       </div>
       <div className="icons">
         <div className="icon" onClick={prevSlide}>

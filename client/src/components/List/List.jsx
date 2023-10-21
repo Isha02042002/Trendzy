@@ -20,3 +20,5 @@ const List = ({ subCats, maxPrice, sort, catId }) => {
 };
 
 export default List;
+
+

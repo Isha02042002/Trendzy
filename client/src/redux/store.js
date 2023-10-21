@@ -11,7 +11,7 @@ import {
   REGISTER,
 } from "redux-persist";
 import storage from "redux-persist/lib/storage";
-/*const stripe = require('stripe')('sk_test_51NSmZ8SHGFEAIfvcW12UuylTawx137Eew7Ia9IqUwdBqVJ94zNLIaE50fMH0YafeX1l0vj3t5c28lYMlTx913cSg00eeFyncry');*/
+const stripe = require('stripe')(process.env.STRIPE_KEY);
 const persistConfig = {
   key: "root",
   version: 1,

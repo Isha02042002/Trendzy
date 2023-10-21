@@ -1,9 +1,13 @@
 .footer {
-  margin: 100px 200px 20px 200px;
+  margin: 50px 50px 20px 50px;
+  color:#78909C;
+
 
   .top {
     display: flex;
     gap: 50px;
+    color:#78909C;
+    width: 100%;
 
     .item {
       flex: 1;
@@ -16,11 +20,11 @@
       h1{
         font-size: 18px;
         font-weight: 500;
-        color: #555;
+        color:#78909C; 
       }
 
       span{
-        color: gray;
+        color:#78909C;
       }
     }
   }
@@ -29,15 +33,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 25px;
     .left {
       display: flex;
       align-items: center;
 
       .logo{
-        color: #2879fe;
+        color:#78909C;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 48px;
       }
 
       .copyright{
